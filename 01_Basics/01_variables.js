@@ -4,3 +4,5 @@ var password="122344"
 accountCity ="Jaipur"
 
 console.log(accountId)
+
+console.table([accountId,accountMain,accountCity])
