@@ -43,3 +43,15 @@ notmyname="Naaah"
 console.log(myrealname);
 console.log(notmyname);
 
+
+let userOne = {
+    email: "user420@gmail.com",
+    upi: "9343399399@upi"  //Non primitive so goes to heap and heap returns refernce only 
+}
+
+let usertwo = userOne
+
+usertwo.email="hahaha@gmail.com"
+
+console.log(userOne.email)
+console.log(usertwo.email)
