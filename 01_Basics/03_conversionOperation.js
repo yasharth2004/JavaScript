@@ -50,3 +50,14 @@ let someNumber = 33
 let stringSomeNumber = String(someNumber)
 console.log(stringSomeNumber)
 console.log(typeof stringSomeNumber)
+
+
+//******************* Operations  **************************
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log(1 + 2 + "2")
+console.log("1" + 2 + 2)
+
+console.log(+true)
+console.log(+"")
