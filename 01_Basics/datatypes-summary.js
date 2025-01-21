@@ -30,3 +30,16 @@ const myFunction = function(){
 }
 
 myFunction();
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//stack (Primitive) || heap (non-primitive)  
+
+let myrealname ="Yasharth"
+let notmyname=myrealname
+notmyname="Naaah"
+
+console.log(myrealname);
+console.log(notmyname);
+
