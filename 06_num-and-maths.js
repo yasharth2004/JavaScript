@@ -19,13 +19,13 @@ console.log(hundreds.toLocaleString('en-IN'));
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++   MATHS    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// console.log(Math);
-// console.log(Math.abs(-4));
-// console.log(Math.round(4.4));
-// console.log(Math.ceil(4.2));
-// console.log(Math.floor(4.8));
-// console.log(Math.min(2,6,2,21,34,6));
-// console.log(Math.max(4,2,1,4,5,2,));
+console.log(Math);
+console.log(Math.abs(-4));
+console.log(Math.round(4.4));
+console.log(Math.ceil(4.2));
+console.log(Math.floor(4.8));
+console.log(Math.min(2,6,2,21,34,6));
+console.log(Math.max(4,2,1,4,5,2,));
 console.log(Math.random().toFixed(2)*100); 
 console.log(Math.floor(Math.random()*10)+1);
 
