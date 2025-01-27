@@ -64,7 +64,28 @@ const course = {
 //const {courseInstructor} = course
 //console.log(courseInstructor);
 
-const {courseInstructor : instrutor }=course
+const {courseInstructor : instrutor } = course   // Object destructuring
 console.log(instrutor);
 
+// const navbar = ({company}) =>
+// {
 
+// }
+// navbar(company = 'yash')
+
+/* 
+{
+    "name" : "yash"
+    "age : "21"
+}                This is JSon file structure 
+*/
+
+/*
+
+[
+    {}
+    {}
+    {}
+]
+
+*/
