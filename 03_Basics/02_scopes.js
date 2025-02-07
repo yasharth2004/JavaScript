@@ -35,3 +35,21 @@ if(true)
         
     }
 }
+// console.log(username)
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//addone(5)  No error
+function addone(num)
+{
+    return num+1;
+}
+console.log(addone(5));
+
+//addTwo(6)   //Error
+const addTwo = function (num){
+    return num + 2
+}
+
+addTwo(5)
