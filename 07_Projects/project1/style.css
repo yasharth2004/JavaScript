@@ -1,0 +1,46 @@
+html {
+    margin: 0;
+    background-color: #d0f4ea;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+  
+  span {
+    display: block;
+   
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+.button {
+    border-radius: 25%;
+    margin: 7px;
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+
+  }
+  
+  #green {
+    background: #c2e812;
+  }
+  
+  #ashgray {
+    background: #bfcbc2;
+  }
+  #lightgreen {
+    background: #91f5ad;
+  }
+  #orange {
+    background: #ff934f;
+  }
+  
